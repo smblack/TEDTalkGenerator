@@ -1,0 +1,10 @@
+<p id = "demo"></p>
+<script>
+var word1 = ['Learning', 'Knowledge','Language','Ambition','Creativity','Love','All Artistic Achievement','The Scientific Method','Parenting','Teaching Responsibility','Romance','Sex','Perserverance','Dreaming','Civilization','War','Fashion','The Food Supply','Friendship','History','Poetry','Fear','Lateral Thinking','The Housing Crisis','Generosity','Religion'];
+var first = word1[Math.floor(Math.random() * word1.length)];
+var word2 = ['Sound?','Algorithm?','Rhizome?','Smell?','Hallucination?','Meme?','Mechanical Schematic?','Open Wound?','Club Drug?','Club Banger?','Sport?','Programming Language?','Situational Comedy?','Broadway Musical?','Bumper Sticker?','Electrical Grid?','Cookbook?','Marketing Campaign?','Alien Space Craft?','Economic Consequence?','Promising Medical Treatment?','Crime?','Out-of-Body Experience?','Evolutionary Advantage?','Breed of Dog?','Form of Protest?'];
+var second = word2[Math.floor(Math.random() * word2.length)];
+document.getElementById("demo").innerHTML = "What if" + "<br>" + first + "<br>" + "was a(n)" + "<br>" + second;
+</script>
+  <button onclick = "window.location.reload()" >Expand My Mind Again!</button>
+<script>
